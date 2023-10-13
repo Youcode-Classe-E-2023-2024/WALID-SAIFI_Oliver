@@ -9,7 +9,6 @@ body {
     font-family: Arial, sans-serif;
     background: repeating-linear-gradient(135deg, rgba(0,0,0,0.05), rgba(0,0,0,0.06), rgba(0,0,0,0.05), transparent, rgba(0,0,0,0.05), rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.06), rgba(0,0,0,0.02), rgba(0,0,0,0.05), rgba(0,0,0,0.04), rgba(0,0,0,0.02), rgba(0,0,0,0.07) 3px), linear-gradient(90deg, rgb(63, 122, 63), rgb(177, 218, 62));
 }
-
 header {
     width: 100%;
     display: flex;
@@ -40,7 +39,7 @@ header {
 .navigation a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 15px;
     font-family: Georgia;
     margin-left: 50px;
 }
@@ -74,7 +73,8 @@ header {
     padding-bottom: 40px;
     background-color: rgba(17, 16, 16, 0.46);
     border-radius: 30px;
-    margin-right: 20px; 
+    margin-right: 20px;
+
 }
 .text:hover{
     color: white;
@@ -88,7 +88,7 @@ header {
 }
 .container_text1{
     width: 900px;
-    height: 1200px;
+    height: auto;
     color: #121313;
     padding: 2px;
     padding-left: 40px;
@@ -97,13 +97,13 @@ header {
     background-color: rgba(171, 229, 146, 0.24);
     border-radius: 30px;
     margin-left: 230px;
-    margin-bottom: 450px;
+    margin-bottom: 150px;
     font-family: cursive;
     font-size: 19px;
 
 }
 .titre_taille{
-    margin-left: 560px;
+    margin-left: 570px;
     margin-top: 10px;
     background-color: rgba(27, 224, 121, 0.75);
     width: 250px;
@@ -115,8 +115,22 @@ header {
     color: rgb(255, 255, 255);
     padding-bottom: 40px;
 }
+.titre_oliver_maroc{
+    margin-left: 660px;
+    margin-top: 10px;
+    background-color: rgba(27, 224, 121, 0.75);
+    width: 100px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    margin-top: 160px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+
 .titre_fruit{
-    margin-left: 560px;
+    margin-left: 660px;
     margin-top: 10px;
     background-color: rgba(27, 224, 121, 0.75);
     width: 200px;
@@ -129,18 +143,21 @@ header {
     padding-bottom: 40px;
 }
 .titre_oliver_maroc{
-    margin-left: 560px;
+    margin-left: 450px;
     margin-top: 10px;
     background-color: rgba(27, 224, 121, 0.75);
-    width: 200px;
-    height: 60px;
-    padding: 16px;
+    width: 500px;
+    height: 70px;
+    padding: 20px;
     border-radius: 40px;
     margin-bottom: 50px;
     margin-top: 160px;
     color: rgb(255, 255, 255);
     padding-bottom: 40px;
 
+}
+.titre_oliver_maroc:hover{
+    background-color: rgb(18, 19, 19);
 }
 .titre_taille:hover{
     background-color: rgb(18, 19, 19);
@@ -154,6 +171,15 @@ header {
     padding: 15px;
     border-radius: 50%;
     background-color: rgb(18, 19, 19);
+}
+.img_maroc{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(18, 19, 19);
+    margin-left: 160px;
+    margin-top: 40px;
 }
 .img_fruit1{
     width: 600px;
@@ -179,11 +205,41 @@ footer {
   }
   
   .social-icons a {
-    
     margin-right: 10px;
     color: #e7e1e1; /* Couleur des icônes */
   }
-  
+.card{
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
+.card1{
+    background-image: url(img/olives-4711171_640-640x320.jpg);
+}
+.card2{
+    background-image: url(img/olivier-a-fruits-blancs-2.webp);
+}
+.card3{
+    background-image: url(img/olv.jpg);
+}
+.card4{
+    background-image: url(img/olives-357849_640.jpg);
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+h5{
+    color: #000000;
+    text-shadow: 0 0 5px #999;
+}
 
 
 

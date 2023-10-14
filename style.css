@@ -82,9 +82,8 @@ header {
 }
 
 .img_hom{
-    width: 450px;
-    height: 500px;
-    border-radius: 15px;
+    width: 500px;
+    height: 600px;
 }
 .container_text1{
     width: 900px;
@@ -195,7 +194,7 @@ footer {
     background-color: rgb(18, 19, 19);
     color: #fff;
     text-align: center;
-    padding: 60px;
+    padding: 40px;
 }
 .social-icons {
     padding-top: 200px;
@@ -220,7 +219,7 @@ footer {
     margin: 10px 15px;
     background-position: center;
     background-size: cover;
-    transition:transform 0.5s;
+    transition:transform 0.9s;
 }
 .card1{
     background-image: url(img/olives-4711171_640-640x320.jpg);
@@ -248,7 +247,7 @@ h5{
 .cont_livre{
     padding-top: 300px;
     padding: 20px;
-    color: white;
+    color: #000000;
     display: grid;
     grid-template-columns: 1fr;
     margin-top: 200px;
@@ -256,11 +255,19 @@ h5{
     margin-left: 400px;
     width:1100px;
     border-radius: 10px;
+    font-family: cursive;
+    font-size: 19px;
+
 }
+ 
+    
 .img_livre1{
     width: 100%;
     border-radius: 10%;
     margin-bottom: 10px;
+}
+.img_livre1:hover{
+    transform: translateY(-10px);
 }
 
 .parent {
@@ -272,6 +279,18 @@ h5{
 .text_livre{
     width: 70%;
 }
-/*mise 03ju */
 
+.titre_livre{
+    margin-bottom: 100px;
+    background-color: rgba(27, 224, 121, 0.75);
+    width: 56%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.titre_livre:hover{
+  background-color: #000000;
+  color :#fff;
+
+}
 
